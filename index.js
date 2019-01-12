@@ -376,6 +376,12 @@ console.log(pieResult);
 * Console.log the variable to see the result.
 */
 
+function jump(height){
+    return 'You jumped ' + height + ' feet high!';
+}
+
+var jumpResult = jump(9);
+console.log(jumpResult);
 
 /*
 * Declare a Function named makeFood which takes three parameters, ingredient1, ingredient2, recipeName.

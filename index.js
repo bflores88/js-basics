@@ -358,7 +358,12 @@ console.log(myNum);
 * Declare a variable pieResult and assign it to the function call.
 * Console.log the variable to see the result.*/
 
+function bakePie(ingredient){
+    return "Today's sepcial is " + ingredient + " pie.";
+}
 
+var pieResult = bakePie('pecan');
+console.log(pieResult);
 
 /*
 * Declare a Function named jump which has a single parameter, height.
